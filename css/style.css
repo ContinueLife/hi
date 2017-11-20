@@ -8,8 +8,7 @@ body {
   background-image: radial-gradient(ellipse closest-side, #ffffff, #d4e2af);
   -moz-perspective: 1000px;
   -webkit-perspective: 1000px;
-  perspective: 1000px;
-  font-family: 'Open Sans';
+  perspective: 1000px;  font-family: 'Open Sans';
   font-weight: 300;
 }
 
@@ -19,15 +18,15 @@ body {
   box-sizing: border-box;
 }
 
-#window {
+#window 
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   margin: auto;
-  height: 350px;
-  width: 450px;
+  height: 420px;
+  width: 520px;
   color: #FFF;
   -webkit-animation: 1.5s window ease-in-out backwards;
   -moz-animation: 1.5s window ease-in-out backwards;
@@ -47,8 +46,8 @@ body {
   transition-duration: 1s;
 }
 #window.flip {
-  height: 460px;
-  width: 350px;
+  height: 530px;
+  width: 410px;
 }
 #window.flip .page-front {
   -moz-transform: rotateX(180deg);
