@@ -26,8 +26,8 @@ body {
   right: 0;
   bottom: 0;
   margin: auto;
-  height:550px;
-  width: 750px;
+  height: 350px;
+  width: 450px;
   color: #FFF;
   -webkit-animation: 1.5s window ease-in-out backwards;
   -moz-animation: 1.5s window ease-in-out backwards;
@@ -47,8 +47,8 @@ body {
   transition-duration: 1s;
 }
 #window.flip {
-  height: 660px;
-  width: 500px;
+  height: 460px;
+  width: 350px;
 }
 #window.flip .page-front {
   -moz-transform: rotateX(180deg);
