@@ -1,4 +1,4 @@
-html, body 
+html, body {
   height: 100%;
 }
 
@@ -26,8 +26,8 @@ body {
   right: 0;
   bottom: 0;
   margin: auto;
-  height: 550px;
-  width: 700px;
+  height:550px;
+  width: 750px;
   color: #FFF;
   -webkit-animation: 1.5s window ease-in-out backwards;
   -moz-animation: 1.5s window ease-in-out backwards;
